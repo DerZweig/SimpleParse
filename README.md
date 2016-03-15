@@ -7,7 +7,7 @@ The following code snippet shows a parser for C-Style expressions:
 ========================================
    Example: Expression Parser
 ========================================
-
+```F#
 open Tokenizer
 open System
 open System.Globalization
@@ -298,5 +298,5 @@ and parsePrimaryExpression =
         return! parsePostfixExpression(MyExpression.PrimaryExpression x)
     }
     
-    
+```    
     
