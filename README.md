@@ -1,6 +1,6 @@
 # SimpleParse
-The SimpleParse library is a lightweight parser generator written in F#. It contains 2 very simple builders for F# computation expressions 
-that allow users to define in a declarative style without the frustration of unexpected rules, such as shift-reduce for example. Happy Coding :-)
+The SimpleParse library is a lightweight parser generator written in F#. It contains 2 very simple builders for F# computation expressions,
+which allows users to define a parser in a declarative style. 
 
 The following code snippet shows a parser for C-Style expressions:
 
